@@ -1,9 +1,10 @@
 package boardgame;
 
-public class Board {
+public class Board { // Created the Board class with the aim of organizing the rows, columns and giving function to the pieces
     private int rows;
     private int columns;
     private Piece[][] pieces;
+    // Created the rows, columns and pieces.
 
     public Board(int rows, int columns) {
         this.rows = rows;
